@@ -99,6 +99,8 @@ router.post("/jobs/:id/apply", auth, async (req, res) => {
   }
 });
 
+
+
 // Delete applied job
 router.delete("/jobs/:id/application/delete", auth, async (req, res) => {
   try {
